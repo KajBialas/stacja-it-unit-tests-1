@@ -4,7 +4,8 @@
   "description": "Standard ES6 Boilerplate configured with babel, webpack and eslint.",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "jest": {
     "transform": {
