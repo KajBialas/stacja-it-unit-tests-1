@@ -24,8 +24,8 @@ function TodoList({todoListCompleted, todoListNotCompleted, todoMarkComplete}) {
 
 const mapStateToProps = state => {
   return {
-    todoListNotCompleted: selecNotCompletedTodo(state.todo.list),
-    todoListCompleted: selectCompletedTodo(state.todo.list),
+    todoListNotCompleted: selecNotCompletedTodo(state),
+    todoListCompleted: selectCompletedTodo(state),
   }
 };
 
