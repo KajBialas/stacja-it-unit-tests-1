@@ -8,4 +8,8 @@ function TopBar({text}) {
   )
 }
 
+TopBar.defaultProps = {
+  text: 'Domyślny nagłówek',
+}
+
 export default TopBar;
